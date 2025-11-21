@@ -1,4 +1,4 @@
-const RUTA_GLOBAL = "http://localhost/botanero-ventas/api/"
+const RUTA_GLOBAL = "http://localhost/illari-ventas/api/"
 
 const HttpService = {
     async registrar(datos, ruta){

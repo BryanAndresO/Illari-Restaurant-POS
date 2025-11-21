@@ -1,5 +1,5 @@
-CREATE DATABASE botanero_ventas;
-USE botanero_ventas
+CREATE DATABASE illari_ventas;
+USE illari_ventas
 CREATE TABLE categorias(
 	id BIGINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
 	tipo ENUM("PLATILLO", "BEBIDA") NOT NULL,

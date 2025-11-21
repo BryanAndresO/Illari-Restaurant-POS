@@ -4,7 +4,7 @@ define('DIRECTORIO', './fotos/');
 
 function verificarTablas() {
     $bd = conectarBaseDatos();
-    $sentencia  = $bd->query("SELECT COUNT(*) AS resultado FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'botanero_ventas'");
+    $sentencia  = $bd->query("SELECT COUNT(*) AS resultado FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'illari_ventas'");
     return $sentencia->fetchAll();
 }
 
@@ -493,7 +493,7 @@ function obtenerCategorias(){
 
 function conectarBaseDatos() {
 	$host = "localhost";
-	$db   = "botanero_ventas";
+	$db   = "illari_ventas";
 	$user = "root";
 	$pass = "";
 	$charset = 'utf8mb4';

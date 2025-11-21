@@ -1,7 +1,7 @@
 {
-  "name": "botanero-ventas",
+  "name": "illari-ventas",
   "version": "1.0.0",
-  "description": "Sistema de ventas para botanero",
+  "description": "Sistema de ventas para Restobar Illari",
   "author": "PacoHunterDev",
   "private": true,
   "scripts": {
